@@ -1,6 +1,32 @@
+.header {
+  background-color: #14213D;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
+}
+
+
+
 /* Rectangle 4 */
-
-
 position: absolute;
 width: 375px;
 height: 79px;
@@ -9,34 +35,23 @@ top: 0px;
 
 background: #14213D;
 
-
 /* ロゴ_MotoRin_2 3 */
-
-
 position: absolute;
 width: 107px;
 height: 58px;
 left: 0px;
 top: 10px;
-
 background: url(ロゴ_MotoRin_2.png);
 
-
 /* image 1 */
-
-
 position: absolute;
 width: 375px;
 height: 733px;
 left: 0px;
 top: 79px;
-
 background: url(image.png);
 
-
 /* Rectangle 2 */
-
-
 position: absolute;
 width: 197px;
 height: 58px;
@@ -46,10 +61,7 @@ top: 747px;
 background: #14213D;
 border-radius: 24px;
 
-
 /* Start */
-
-
 position: absolute;
 width: 104px;
 height: 56px;
@@ -61,13 +73,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 48px;
 line-height: 56px;
-
 color: #FFFFFF;
 
-
 /* Arrow 2 */
-
-
 position: absolute;
 width: 6px;
 height: 0px;
@@ -78,35 +86,9 @@ border: 5px solid #000000;
 box-sizing: border-box;
 transform: rotate(-90deg);
 
-/* Polygon 6 */
-
-
-position: absolute;
-width: 48.73px;
-height: 45.25px;
-left: 41.95px;
-top: 535.25px;
-
-background: #FF00C7;
-transform: rotate(179.72deg);
-
-
-/* Polygon 7 */
-
-
-position: absolute;
-width: 48.73px;
-height: 45.25px;
-left: 310.95px;
-top: 694.25px;
-
-background: #FF00C7;
-transform: rotate(179.72deg);
 
 
 /* Polygon 2 */
-
-
 position: absolute;
 width: 48.73px;
 height: 45.25px;
@@ -116,10 +98,7 @@ top: 748.25px;
 background: #FF00C7;
 transform: rotate(179.72deg);
 
-
 /* Polygon 3 */
-
-
 position: absolute;
 width: 48.73px;
 height: 45.25px;
@@ -129,23 +108,7 @@ top: 296.25px;
 background: #FF00C7;
 transform: rotate(179.72deg);
 
-
-/* Polygon 8 */
-
-
-position: absolute;
-width: 48.73px;
-height: 45.25px;
-left: 365.95px;
-top: 489.25px;
-
-background: #FF00C7;
-transform: rotate(179.72deg);
-
-
 /* Polygon 4 */
-
-
 position: absolute;
 width: 48.73px;
 height: 45.25px;
@@ -155,15 +118,42 @@ top: 357.25px;
 background: #FF00C7;
 transform: rotate(179.72deg);
 
-
 /* Polygon 5 */
-
-
 position: absolute;
 width: 48.73px;
 height: 45.25px;
 left: 291.95px;
 top: 170.25px;
+
+background: #FF00C7;
+transform: rotate(179.72deg);
+
+/* Polygon 6 */
+position: absolute;
+width: 48.73px;
+height: 45.25px;
+left: 41.95px;
+top: 535.25px;
+
+background: #FF00C7;
+transform: rotate(179.72deg);
+
+/* Polygon 7 */
+position: absolute;
+width: 48.73px;
+height: 45.25px;
+left: 310.95px;
+top: 694.25px;
+
+background: #FF00C7;
+transform: rotate(179.72deg);
+
+/* Polygon 8 */
+position: absolute;
+width: 48.73px;
+height: 45.25px;
+left: 365.95px;
+top: 489.25px;
 
 background: #FF00C7;
 transform: rotate(179.72deg);
